@@ -14,25 +14,51 @@ body {
   padding: 0;
   background: #f4f4f4;
   color: #222;
+  text-align: center;
+}
+
+.header {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+.nav {
+  background-color: #444;
+  padding: 10px;
+}
+
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+  text-align: left;
 }
 
 h1 {
   font-size: 2.4rem;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .intro {
   font-size: 1.05rem;
   line-height: 1.7;
   max-width: 850px;
-  margin-bottom: 35px;
+  margin: 0 auto 35px auto;
   color: #444;
+  text-align: center;
 }
 
 .video-grid {
@@ -80,18 +106,6 @@ h1 {
   color: #555;
 }
 
-.back-link {
-  display: inline-block;
-  margin-bottom: 25px;
-  text-decoration: none;
-  color: #222;
-  font-weight: bold;
-}
-
-.back-link:hover {
-  text-decoration: underline;
-}
-
 @media (max-width: 600px) {
   h1 {
     font-size: 1.9rem;
@@ -108,176 +122,197 @@ h1 {
   .video-card h2 {
     font-size: 1.05rem;
   }
+
+  .nav a {
+    display: inline-block;
+    margin: 6px 8px;
+  }
 }
 </style>
 </head>
 
 <body>
-  <div class="container">
-    <a class="back-link" href="index.html">← Back to Home</a>
 
-    <h1>Videos by Author Marco J Olivier</h1>
+<div class="header">
+  <h1>Marco J Olivier</h1>
+  <p>Author of The Shape of Series</p>
+</div>
 
-    <p class="intro">
-      On this page you can watch videos where author Marco J Olivier shares reflections and guidance
-      about family estrangement, healing, and rebuilding identity after disconnection.
-    </p>
+<div class="nav">
+  <a href="index.html">Home</a>
+  <a href="shape.html">Books</a>
+  <a href="about-marco-j-olivier.html">About</a>
+  <a href="author-marco-j-olivier.html">Author Photos</a>
+  <a href="videos.html">Videos</a> 
+  <a href="articles.html">Read My Articles</a>
+  <a href="contact.html">Contact</a>
+</div>
 
-    <div class="video-grid">
+<div class="container">
 
-      <div class="video-card">
-        <h2>Family Estrangement Is More Common Than You Think</h2>
-        <div class="video-wrapper">
-          <iframe
-            src="https://www.youtube.com/embed/d4qK74VuBX8"
-            title="Family Estrangement Is More Common Than You Think | Marco J Olivier"
-            allowfullscreen>
-          </iframe>
-        </div>
-        <p class="video-text">
-          A reflection on how common family estrangement really is, and why so many parents suffer in silence.
-        </p>
-      </div>
+  <h1>Videos by Author Marco J Olivier</h1>
 
-      <div class="video-card">
-        <h2>Healing After Estrangement Starts With You</h2>
-        <div class="video-wrapper">
-          <iframe
-            src="https://www.youtube.com/embed/qlq92u-ZRB4"
-            title="Healing After Estrangement Starts With You | Marco J Olivier"
-            allowfullscreen>
-          </iframe>
-        </div>
-        <p class="video-text">
-          A video about beginning the healing process within yourself, even when reconciliation has not yet happened.
-        </p>
-      </div>
-
-      <div class="video-card">
-        <h2>You Are Still a Parent Even After Estrangement</h2>
-        <div class="video-wrapper">
-          <iframe
-            src="https://www.youtube.com/embed/Fjpr4DMzt7I"
-            title="You Are Still a Parent Even After Estrangement | Marco J Olivier"
-            allowfullscreen>
-          </iframe>
-        </div>
-        <p class="video-text">
-          A reminder that estrangement does not erase your role, your love, or your identity as a parent.
-        </p>
-      </div>
-
-      <div class="video-card">
-        <h2>Boundaries Are Healthy</h2>
-        <div class="video-wrapper">
-          <iframe
-            src="https://www.youtube.com/embed/1ErwxW4oZjg"
-            title="Boundaries Are Healthy | Marco J Olivier"
-            allowfullscreen>
-          </iframe>
-        </div>
-        <p class="video-text">
-          Setting healthy boundaries is not rejection. It is a way to protect your emotional well-being while still allowing space for healing and respect.
-        </p>
-      </div>
-
-      <div class="video-card">
-        <h2>Social Media Makes Estrangement Harder</h2>
-        <div class="video-wrapper">
-          <iframe
-            src="https://www.youtube.com/embed/70OEGvazi5o"
-            title="Don't Chase — Centre Yourself | Marco J Olivier"
-            allowfullscreen>
-          </iframe>
-        </div>
-        <p class="video-text">
-          In moments of estrangement it is easy to feel the urge to chase reconciliation.
-          This reflection explores why centering yourself first can bring clarity, dignity,
-          and emotional balance during painful periods of disconnection.
-        </p>
-      </div>
-
-      <div class="video-card">
-  <h2>Estrangement Is Not Always Your Fault</h2>
-  <div class="video-wrapper">
-    <iframe
-      src="https://www.youtube.com/embed/UYhogNt7BTc"
-      title="Estrangement Is Not Always Your Fault | Marco J Olivier"
-      allowfullscreen>
-    </iframe>
-  </div>
-  <p class="video-text">
-    Estrangement is often complex and rarely caused by one person alone.
-    This reflection explores how parents can release unnecessary blame
-    while still reflecting honestly on relationships.
+  <p class="intro">
+    On this page you can watch videos where author Marco J Olivier shares reflections and guidance
+    about family estrangement, healing, and rebuilding identity after disconnection.
   </p>
+
+  <div class="video-grid">
+
+    <div class="video-card">
+      <h2>Family Estrangement Is More Common Than You Think</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/d4qK74VuBX8"
+          title="Family Estrangement Is More Common Than You Think | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        A reflection on how common family estrangement really is, and why so many parents suffer in silence.
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h2>Healing After Estrangement Starts With You</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/qlq92u-ZRB4"
+          title="Healing After Estrangement Starts With You | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        A video about beginning the healing process within yourself, even when reconciliation has not yet happened.
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h2>You Are Still a Parent Even After Estrangement</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/Fjpr4DMzt7I"
+          title="You Are Still a Parent Even After Estrangement | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        A reminder that estrangement does not erase your role, your love, or your identity as a parent.
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h2>Boundaries Are Healthy</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/1ErwxW4oZjg"
+          title="Boundaries Are Healthy | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        Setting healthy boundaries is not rejection. It is a way to protect your emotional well-being while still allowing space for healing and respect.
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h2>Social Media Makes Estrangement Harder</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/70OEGvazi5o"
+          title="Don't Chase, Centre Yourself | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        In moments of estrangement it is easy to feel the urge to chase reconciliation.
+        This reflection explores why centering yourself first can bring clarity, dignity,
+        and emotional balance during painful periods of disconnection.
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h2>Estrangement Is Not Always Your Fault</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/UYhogNt7BTc"
+          title="Estrangement Is Not Always Your Fault | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        Estrangement is often complex and rarely caused by one person alone.
+        This reflection explores how parents can release unnecessary blame
+        while still reflecting honestly on relationships.
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h2>Why Guilt Will Not Heal Family Estrangement</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/LJfgnKDpQyM"
+          title="Why Guilt Will Not Heal Family Estrangement | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        Guilt can easily become a heavy emotional burden during estrangement.
+        This video explores why healing requires more than self-blame and how
+        parents can begin rebuilding inner stability.
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h2>How Social Media Makes Family Estrangement Harder</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/hxFX0HMruA0"
+          title="How Social Media Makes Family Estrangement Harder | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        Social media can intensify the pain of estrangement by exposing fragments
+        of family life while real connection is missing. This reflection explores
+        how these platforms can complicate emotional recovery.
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h2>The Power of Saying Less During Estrangement</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/f1RWAYVIMoQ"
+          title="The Power of Saying Less During Estrangement | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        During emotional conflict the instinct is often to explain more and argue
+        harder. This video explores why restraint and thoughtful silence can
+        sometimes protect dignity and create space for healing.
+      </p>
+    </div>
+
+    <div class="video-card">
+      <h2>Why Holidays Are the Hardest During Estrangement</h2>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/pwHKhv9J52w"
+          title="Why Holidays Are the Hardest During Estrangement | Marco J Olivier"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p class="video-text">
+        Holidays often magnify the emotional weight of estrangement.
+        Traditions and memories can make absence feel sharper, and this
+        reflection explores ways to navigate those moments with strength.
+      </p>
+    </div>
+
+  </div>
 </div>
 
-<div class="video-card">
-  <h2>Why Guilt Will Not Heal Family Estrangement</h2>
-  <div class="video-wrapper">
-    <iframe
-      src="https://www.youtube.com/embed/LJfgnKDpQyM"
-      title="Why Guilt Will Not Heal Family Estrangement | Marco J Olivier"
-      allowfullscreen>
-    </iframe>
-  </div>
-  <p class="video-text">
-    Guilt can easily become a heavy emotional burden during estrangement.
-    This video explores why healing requires more than self-blame and how
-    parents can begin rebuilding inner stability.
-  </p>
-</div>
-
-<div class="video-card">
-  <h2>How Social Media Makes Family Estrangement Harder</h2>
-  <div class="video-wrapper">
-    <iframe
-      src="https://www.youtube.com/embed/hxFX0HMruA0"
-      title="How Social Media Makes Family Estrangement Harder | Marco J Olivier"
-      allowfullscreen>
-    </iframe>
-  </div>
-  <p class="video-text">
-    Social media can intensify the pain of estrangement by exposing fragments
-    of family life while real connection is missing. This reflection explores
-    how these platforms can complicate emotional recovery.
-  </p>
-</div>
-
-<div class="video-card">
-  <h2>The Power of Saying Less During Estrangement</h2>
-  <div class="video-wrapper">
-    <iframe
-      src="https://www.youtube.com/embed/f1RWAYVIMoQ"
-      title="The Power of Saying Less During Estrangement | Marco J Olivier"
-      allowfullscreen>
-    </iframe>
-  </div>
-  <p class="video-text">
-    During emotional conflict the instinct is often to explain more and argue
-    harder. This video explores why restraint and thoughtful silence can
-    sometimes protect dignity and create space for healing.
-  </p>
-</div>
-
-<div class="video-card">
-  <h2>Why Holidays Are the Hardest During Estrangement</h2>
-  <div class="video-wrapper">
-    <iframe
-      src="https://www.youtube.com/embed/pwHKhv9J52w"
-      title="Why Holidays Are the Hardest During Estrangement | Marco J Olivier"
-      allowfullscreen>
-    </iframe>
-  </div>
-  <p class="video-text">
-    Holidays often magnify the emotional weight of estrangement.
-    Traditions and memories can make absence feel sharper, and this
-    reflection explores ways to navigate those moments with strength.
-  </p>
-</div>
-      
-</div>
-</div>
 </body>
 </html>
