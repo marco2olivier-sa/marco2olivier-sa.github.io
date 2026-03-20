@@ -59,61 +59,33 @@
       text-align: center;
       margin-bottom: 10px;
       font-size: 36px;
-      line-height: 1.2;
     }
 
     .section-description {
       max-width: 900px;
-      margin: 0 auto 30px auto;
+      margin: 0 auto 20px auto;
       text-align: center;
-      line-height: 1.7;
       font-size: 18px;
     }
 
-    .article-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
-      margin-top: 25px;
-    }
-
-    .article-card {
-      background: white;
-      padding: 22px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    .article-list {
+      max-width: 800px;
+      margin: 30px auto;
       text-align: left;
     }
 
-    .article-card h3 {
-      margin-top: 0;
-      font-size: 22px;
-      line-height: 1.35;
-    }
-
-    .article-card p {
-      line-height: 1.6;
-      margin-bottom: 16px;
-    }
-
-    .article-card a {
+    .article-list a {
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
       color: #1a0dab;
       text-decoration: none;
-      font-weight: bold;
+      margin: 12px 0;
+      line-height: 1.4;
     }
 
-    .article-card a:hover {
+    .article-list a:hover {
       text-decoration: underline;
-    }
-
-    .platform-label {
-      display: inline-block;
-      font-size: 12px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: #666;
-      margin-bottom: 12px;
     }
 
     .footer {
@@ -125,16 +97,10 @@
     }
 
     @media (max-width: 768px) {
-      .nav {
-        padding: 12px 8px;
-      }
-
       .nav a {
         display: inline-block;
         margin: 8px 10px;
-        padding: 6px 4px;
         font-size: 18px;
-        line-height: 1.4;
       }
     }
   </style>
@@ -142,265 +108,102 @@
 
 <body>
 
-  <div class="header">
-    <h1>Marco J Olivier</h1>
-    <p>Articles</p>
+<div class="header">
+  <h1>Marco J Olivier</h1>
+  <p>Articles</p>
+</div>
+
+<div class="nav">
+  <a href="index.html">Home</a>
+  <a href="books.html">Books</a>
+  <a href="about-marco-j-olivier.html">About</a>
+  <a href="author-marco-j-olivier.html">Media Kit</a>
+  <a href="videos.html">Videos</a>
+  <a href="articles.html">Read My Articles</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div class="container">
+
+<div class="intro">
+  <h1>Articles by Marco J Olivier</h1>
+  <p>
+    Explore the written work of <strong>Marco J Olivier</strong>, an author writing on philosophy,
+    spirituality, identity, family estrangement, relationships, and the deeper patterns that shape human life.
+  </p>
+</div>
+
+<div class="section">
+  <h2>The Shape of Series</h2>
+  <div class="section-description">
+    <p>The Shape of Series explores philosophy, self-awareness, meaning, identity, silence, fire, and the hidden structure of ordinary life.</p>
   </div>
 
-  <div class="nav">
-    <a href="index.html">Home</a>
-    <a href="books.html">Books</a>
-    <a href="about-marco-j-olivier.html">About</a>
-    <a href="author-marco-j-olivier.html">Media Kit</a>
-    <a href="videos.html">Videos</a>
-    <a href="articles.html">Read My Articles</a>
-    <a href="contact.html">Contact</a>
+  <div class="article-list">
+    <a href="https://open.substack.com/pub/marcojolivier/p/the-shape-of-silence-what-we-avoid?r=7xnksv&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank">The Shape of Silence</a>
+    <a href="https://open.substack.com/pub/marcojolivier/p/the-shape-of-the-mirror-what-you?r=7xnksv&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank">The Shape of the Mirror</a>
+    <a href="https://open.substack.com/pub/marcojolivier/p/marco-j-olivier-the-philosophy-behind" target="_blank">The Philosophy Behind the Series</a>
+    <a href="https://open.substack.com/pub/marcojolivier/p/marco-j-olivier-what-the-shape-of" target="_blank">What the Bowl Teaches Us</a>
+    <a href="https://marcojolivier.substack.com/p/the-shape-of-silence-the-space-between?r=7xnksv" target="_blank">The Space Between</a>
+    <a href="https://marcojolivier.substack.com/p/the-shape-of-silence-why-stillness?r=7xnksv" target="_blank">Why Stillness Feels Uncomfortable</a>
+    <a href="https://marcojolivier.substack.com/p/the-shape-of-the-flame-power-without?r=7xnksv" target="_blank">Power Without Control</a>
+    <a href="https://marcojolivier.substack.com/p/the-shape-of-the-flame-why-some-people?r=7xnksv" target="_blank">Why Some People Burn Out</a>
+    <a href="https://marcojolivier.substack.com/p/your-life-feels-heavy-because-youre?r=7xnksv" target="_blank">Your Life Feels Heavy</a>
+    <a href="https://marcojolivier.substack.com/p/you-are-not-lost-you-are-just-distracted?r=7xnksv" target="_blank">You Are Not Lost</a>
+    <a href="https://marcojolivier.substack.com/p/the-world-tells-you-to-fix-yourself?r=7xnksv" target="_blank">The World Tells You to Fix Yourself</a>
+    <a href="https://marcojolivier.substack.com/p/you-dont-need-a-new-life-you-need?r=7xnksv" target="_blank">You Need a Return to Yourself</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2>The Art of Being Here</h2>
+  <div class="section-description">
+    <p>The Art of Being Here explores faith, stillness, identity, trust, and spiritual growth.</p>
   </div>
 
-  <div class="container">
+  <div class="article-list">
+    <a href="https://medium.com/@marco2olivier/36e4e87d4a9d" target="_blank">You Are Not Behind, You Are Being Formed</a>
+    <a href="https://medium.com/@marco2olivier/8313edf75660" target="_blank">You Haven’t Lost Faith, It Has Just Changed Shape</a>
+  </div>
+</div>
 
-    <div class="intro">
-      <h1>Articles by Marco J Olivier</h1>
-      <p>
-        Explore the written work of <strong>Marco J Olivier</strong>, an author writing on philosophy,
-        spirituality, identity, family estrangement, relationships, and the deeper patterns that shape human life.
-        These articles support his books, expand his core themes, and help readers engage more deeply with each series.
-      </p>
-    </div>
-
-    <div class="section">
-      <h2>The Shape of Series</h2>
-      <div class="section-description">
-        <p>
-          The Shape of Series explores philosophy, self-awareness, meaning, identity, silence, fire, and the hidden structure of ordinary life.
-          These articles build the deeper author world behind Marco J Olivier’s reflective books.
-        </p>
-      </div>
-
-      <div class="article-grid">
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>The Shape of Silence</h3>
-          <p>A reflection on silence, avoidance, and the ways unexamined spaces shape identity.</p>
-          <a href="https://open.substack.com/pub/marcojolivier/p/the-shape-of-silence-what-we-avoid?r=7xnksv&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>The Shape of the Mirror</h3>
-          <p>An exploration of identity, perception, and the challenge of honest self-awareness.</p>
-          <a href="https://open.substack.com/pub/marcojolivier/p/the-shape-of-the-mirror-what-you?r=7xnksv&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>The Philosophy Behind the Series</h3>
-          <p>An introduction to the symbolic ideas and deeper thinking behind The Shape of Series.</p>
-          <a href="https://open.substack.com/pub/marcojolivier/p/marco-j-olivier-the-philosophy-behind" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>What the Bowl Teaches Us</h3>
-          <p>A reflection on usefulness, emptiness, meaning, and the beauty of ordinary existence.</p>
-          <a href="https://open.substack.com/pub/marcojolivier/p/marco-j-olivier-what-the-shape-of" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>The Space Between</h3>
-          <p>A philosophical reflection on stillness, pause, and why meaning often appears in the quiet.</p>
-          <a href="https://marcojolivier.substack.com/p/the-shape-of-silence-the-space-between?r=7xnksv" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>Why Stillness Feels Uncomfortable</h3>
-          <p>Why silence unsettles people, and what discomfort can reveal about the inner life.</p>
-          <a href="https://marcojolivier.substack.com/p/the-shape-of-silence-why-stillness?r=7xnksv" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>Power Without Control</h3>
-          <p>A reflection on passion, intensity, and the danger of force without discipline.</p>
-          <a href="https://marcojolivier.substack.com/p/the-shape-of-the-flame-power-without?r=7xnksv" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>Why Some People Burn Out</h3>
-          <p>An exploration of energy, emotional intensity, and the fragile balance of inner fire.</p>
-          <a href="https://marcojolivier.substack.com/p/the-shape-of-the-flame-why-some-people?r=7xnksv" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>Your Life Feels Heavy</h3>
-          <p>A grounded reflection on emotional weight, expectations, and the quiet freedom that comes from letting go of what was never yours.</p>
-          <a href="https://marcojolivier.substack.com/p/your-life-feels-heavy-because-youre?r=7xnksv" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>You Are Not Lost</h3>
-          <p>A powerful insight into how modern life pulls your attention away from yourself, and how clarity returns when the noise is removed.</p>
-          <a href="https://marcojolivier.substack.com/p/you-are-not-lost-you-are-just-distracted?r=7xnksv" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>The World Tells You to Fix Yourself</h3>
-          <p>An honest look at self-improvement, revealing why constant fixing creates disconnection and what real growth actually requires.</p>
-          <a href="https://marcojolivier.substack.com/p/the-world-tells-you-to-fix-yourself?r=7xnksv" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Substack</div>
-          <h3>You Need a Return to Yourself</h3>
-          <p>A reflection on disconnection, identity, and the quiet path back to a life that feels authentic and fully your own.</p>
-          <a href="https://marcojolivier.substack.com/p/you-dont-need-a-new-life-you-need?r=7xnksv" target="_blank">Read Article</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>The Art of Being Here</h2>
-      <div class="section-description">
-        <p>
-          The Art of Being Here explores faith, stillness, identity, trust, surrender, spiritual growth, and the quiet work of walking with God in everyday life.
-          These articles deepen the spiritual world behind Marco J Olivier’s reflective Christian writing.
-        </p>
-      </div>
-
-      <div class="article-grid">
-        <div class="article-card">
-          <div class="platform-label">Medium</div>
-          <h3>You Are Not Behind, You Are Being Formed</h3>
-          <p>A reflective piece on timing, spiritual growth, and why the slow work happening within you matters more than visible progress.</p>
-          <a href="https://medium.com/@marco2olivier/36e4e87d4a9d" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Medium</div>
-          <h3>You Haven’t Lost Faith, It Has Just Changed Shape</h3>
-          <p>A thoughtful reflection on changing faith, spiritual uncertainty, and what it means when belief begins to deepen beyond certainty.</p>
-          <a href="https://medium.com/@marco2olivier/8313edf75660" target="_blank">Read Article</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>The In-Law Series</h2>
-      <div class="section-description">
-        <p>
-          The In-Law Series examines the complexity, tension, loyalty, control, and emotional pressure that often shape in-law relationships and family dynamics.
-        </p>
-      </div>
-
-      <div class="article-grid">
-        <div class="article-card">
-          <div class="platform-label">Blogger</div>
-          <h3>Why In-Law Relationships Are Complex</h3>
-          <p>A closer look at why in-law relationships often carry emotional pressure and misunderstanding.</p>
-          <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-why-in-law.html" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Blogger</div>
-          <h3>When a Mother-in-Law Relationship Turns Difficult</h3>
-          <p>An exploration of tension, control, loyalty, and emotional friction in family structures.</p>
-          <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-why-relationships-with.html" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Blogger</div>
-          <h3>The Hidden Power Struggle</h3>
-          <p>A reflection on subtle power, influence, and the emotional undercurrents of family conflict.</p>
-          <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-hidden-power-struggle.html" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Blogger</div>
-          <h3>When In-Law Conflict Destroys Families</h3>
-          <p>Examining how unresolved tension and unhealthy boundaries can erode family unity over time.</p>
-          <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-why-in-law_17.html" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Blogger</div>
-          <h3>Why Setting Boundaries with In-Laws Feels Like Starting a War</h3>
-          <p>A closer look at how setting boundaries can trigger resistance, emotional pressure, and conflict within family relationships.</p>
-          <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-why-setting-boundaries.html" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Blogger</div>
-          <h3>When Your Partner Won’t Stand Up to Their Family</h3>
-          <p>Exploring how lack of support and unclear loyalty can create tension, distance, and emotional strain within a relationship.</p>
-          <a href="https://marcojolivier.blogspot.com/2026/03/when-your-partner-wont-stand-up-to.html" target="_blank">Read Article</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Estrangement Series</h2>
-      <div class="section-description">
-        <p>
-          The Estrangement Series focuses on family breakdown, emotional pain, healing, identity, and the difficult reality of disconnection between parents and adult children.
-        </p>
-      </div>
-
-      <div class="article-grid">
-        <div class="article-card">
-          <div class="platform-label">Medium</div>
-          <h3>Why Adult Children Cut Off Their Parents</h3>
-          <p>A direct look at estrangement, broken connection, and the painful questions parents are left with.</p>
-          <a href="https://medium.com/@marco2olivier/why-adult-children-cut-off-their-parents-7c3f2d187aba" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Medium</div>
-          <h3>The Hidden Emotional Cost</h3>
-          <p>An exploration of grief, silence, identity, and the emotional aftermath of family disconnection.</p>
-          <a href="https://medium.com/@marco2olivier/the-hidden-emotional-cost-of-family-estrangement-959481f390d8" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Medium</div>
-          <h3>Why Guilt Does Not Heal Estrangement</h3>
-          <p>A reflection on why guilt alone cannot rebuild broken family relationships or create true healing.</p>
-          <a href="https://medium.com/@marco2olivier/why-guilt-does-not-heal-family-estrangement-4a468c9b9d7e" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Medium</div>
-          <h3>Why Estrangement Is More Common Than People Think</h3>
-          <p>A broader look at why estrangement is rising and why so many families are affected in silence.</p>
-          <a href="https://medium.com/@marco2olivier/why-family-estrangement-is-more-common-than-people-think-79c29da4c685" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Medium</div>
-          <h3>We Look Like a Normal Family From the Outside, But We Don’t Speak Anymore</h3>
-          <p>A quiet look at the invisible reality of estrangement, where families appear whole on the outside but live in silence within.</p>
-          <a href="https://medium.com/@marco2olivier/we-look-like-a-normal-family-from-the-outside-but-we-dont-speak-anymore-297adaa251dc" target="_blank">Read Article</a>
-        </div>
-
-        <div class="article-card">
-          <div class="platform-label">Medium</div>
-          <h3>Not All Families Heal: The Hard Reality of Estrangement No One Wants to Say Out Loud.</h3>
-          <p>A direct reflection on the uncomfortable truth that some family relationships do not recover, and what it means to accept that reality.</p>
-          <a href="https://medium.com/@marco2olivier/not-all-families-heal-the-hard-reality-of-estrangement-no-one-wants-to-say-out-loud-73bb62f9488a" target="_blank">Read Article</a>
-        </div>
-      </div>
-    </div>
-
+<div class="section">
+  <h2>The In-Law Series</h2>
+  <div class="section-description">
+    <p>The In-Law Series examines tension, loyalty, and family dynamics.</p>
   </div>
 
-  <div class="footer">
-    <p>Marco J Olivier | Articles</p>
+  <div class="article-list">
+    <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-why-in-law.html" target="_blank">Why In-Law Relationships Are Complex</a>
+    <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-why-relationships-with.html" target="_blank">When a Mother-in-Law Relationship Turns Difficult</a>
+    <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-hidden-power-struggle.html" target="_blank">The Hidden Power Struggle</a>
+    <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-why-in-law_17.html" target="_blank">When In-Law Conflict Destroys Families</a>
+    <a href="https://marcojolivier.blogspot.com/2026/03/marco-j-olivier-why-setting-boundaries.html" target="_blank">Why Setting Boundaries with In-Laws Feels Like Starting a War</a>
+    <a href="https://marcojolivier.blogspot.com/2026/03/when-your-partner-wont-stand-up-to.html" target="_blank">When Your Partner Won’t Stand Up to Their Family</a>
   </div>
+</div>
+
+<div class="section">
+  <h2>Estrangement Series</h2>
+  <div class="section-description">
+    <p>The Estrangement Series focuses on family breakdown and healing.</p>
+  </div>
+
+  <div class="article-list">
+    <a href="https://medium.com/@marco2olivier/why-adult-children-cut-off-their-parents-7c3f2d187aba" target="_blank">Why Adult Children Cut Off Their Parents</a>
+    <a href="https://medium.com/@marco2olivier/the-hidden-emotional-cost-of-family-estrangement-959481f390d8" target="_blank">The Hidden Emotional Cost</a>
+    <a href="https://medium.com/@marco2olivier/why-guilt-does-not-heal-family-estrangement-4a468c9b9d7e" target="_blank">Why Guilt Does Not Heal Estrangement</a>
+    <a href="https://medium.com/@marco2olivier/why-family-estrangement-is-more-common-than-people-think-79c29da4c685" target="_blank">Why Estrangement Is More Common Than People Think</a>
+    <a href="https://medium.com/@marco2olivier/we-look-like-a-normal-family-from-the-outside-but-we-dont-speak-anymore-297adaa251dc" target="_blank">We Look Like a Normal Family From the Outside, But We Don’t Speak Anymore</a>
+    <a href="https://medium.com/@marco2olivier/not-all-families-heal-the-hard-reality-of-estrangement-no-one-wants-to-say-out-loud-73bb62f9488a" target="_blank">Not All Families Heal: The Hard Reality of Estrangement</a>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Marco J Olivier | Articles</p>
+</div>
 
 </body>
 </html>
