@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Marco J Olivier | South African Author of Fiction and Nonfiction</title>
-<meta name="description" content="Official website of South African author Marco J Olivier, writer of The Life of Death, The Art of Being Here, and books exploring relationships, faith, identity, and meaning.">
+<meta name="description" content="Official website of South African author Marco J Olivier, writer of The Art of Being Here, A God Greater Than Human Fear, The Life of Death, and books exploring relationships, faith, identity, and meaning.">
 
 <link rel="canonical" href="https://marco2olivier-sa.github.io/">
 
@@ -94,35 +94,22 @@ body {
   text-align: center;
 }
 
-.featured-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(220px, 1fr));
-  gap: 35px;
-  justify-items: center;
-  margin: 30px auto 0;
-  max-width: 600px;
+.featured-image-link {
+  display: block;
+  margin: 30px auto 20px;
+  max-width: 900px;
 }
 
-.book-card {
-  background: #f9f9f9;
+.featured-image {
   border-radius: 10px;
-  padding: 25px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.06);
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.book-card img {
-  width: 200px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.14);
+  display: block;
+  height: auto;
   max-width: 100%;
+  width: 100%;
 }
 
-.book-card h3 {
-  margin: 15px 0;
-}
-
-.book-card a {
+.featured-button {
   display: inline-block;
   background: #ff9900;
   color: white;
@@ -132,7 +119,7 @@ body {
   font-weight: bold;
 }
 
-.book-card a:hover {
+.featured-button:hover {
   background: #e68a00;
 }
 
@@ -207,11 +194,6 @@ body {
     line-height: 1.4;
   }
 
-  .featured-grid {
-    grid-template-columns: 1fr;
-    max-width: 320px;
-  }
-
   .container {
     margin: 20px 12px;
     padding: 25px 20px;
@@ -251,19 +233,11 @@ body {
   <div class="featured">
     <h2>Featured Books</h2>
 
-    <div class="featured-grid">
-      <div class="book-card">
-        <img src="the-art-of-being-here.webp" alt="The Art of Being Here by Marco J Olivier" loading="lazy" decoding="async">
-        <h3>The Art of Being Here</h3>
-        <a href="https://www.amazon.com/dp/B0GHSG2TP5" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
-      </div>
+    <a class="featured-image-link" href="books.html" aria-label="View all books by Marco J Olivier">
+      <img class="featured-image" src="featured-books.webp" alt="The Art of Being Here, A God Greater Than Human Fear, and The Life of Death by Marco J Olivier" loading="lazy" decoding="async">
+    </a>
 
-      <div class="book-card">
-        <img src="the-life-of-death.webp" alt="The Life of Death by Marco J Olivier" loading="lazy" decoding="async">
-        <h3>The Life of Death</h3>
-        <a href="https://www.amazon.com/dp/B0H7HVSMJM" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
-      </div>
-    </div>
+    <a class="featured-button" href="books.html">View All Books</a>
   </div>
 
   <div class="writing-statement">
