@@ -4,8 +4,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marco J Olivier | Author of The Shape of Series and Estrangement Books</title>
-<meta name="description" content="Official website of author Marco J Olivier, exploring philosophy, estrangement, relationships, personal growth, and the deeper questions of human life.">
+<title>Marco J Olivier | South African Author of Fiction and Nonfiction</title>
+<meta name="description" content="Official website of South African author Marco J Olivier, writer of The Life of Death, The Art of Being Here, and books exploring relationships, faith, identity, and meaning.">
 
 <link rel="canonical" href="https://marco2olivier-sa.github.io/">
 
@@ -75,6 +75,9 @@ body {
 
 .author img {
   width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center 30%;
   border-radius: 100px;
   margin-bottom: 20px;
 }
@@ -86,43 +89,42 @@ body {
   font-size: 18px;
 }
 
-.series {
-  margin-top: 40px;
-}
-
-.series h2 {
+.featured {
+  margin-top: 45px;
   text-align: center;
-  margin-bottom: 30px;
 }
 
-.series-grid {
+.featured-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 35px;
+  justify-items: center;
+  margin: 30px auto 0;
+  max-width: 600px;
 }
 
-.series-card {
+.book-card {
   background: #f9f9f9;
   border-radius: 10px;
   padding: 25px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0,0,0,0.06);
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.series-card h3 {
-  margin-top: 0;
-  margin-bottom: 12px;
-  font-size: 24px;
+.book-card img {
+  width: 200px;
+  max-width: 100%;
 }
 
-.series-card p {
-  line-height: 1.6;
-  margin-bottom: 18px;
+.book-card h3 {
+  margin: 15px 0;
 }
 
-.series-card a {
+.book-card a {
   display: inline-block;
-  background: #222;
+  background: #ff9900;
   color: white;
   padding: 10px 18px;
   text-decoration: none;
@@ -130,8 +132,21 @@ body {
   font-weight: bold;
 }
 
-.series-card a:hover {
-  background: #000;
+.book-card a:hover {
+  background: #e68a00;
+}
+
+.writing-statement {
+  border-top: 1px solid #ddd;
+  margin: 50px auto 0;
+  max-width: 850px;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.writing-statement p {
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 .cta-section {
@@ -160,16 +175,16 @@ body {
   display: inline-block;
 }
 
-.amazon-btn {
+.books-btn {
   background: #ff9900;
 }
 
-.articles-btn {
-  background: #1a0dab;
+.about-btn {
+  background: #222;
 }
 
-.medium-btn {
-  background: #222;
+.contact-btn {
+  background: #0066cc;
 }
 
 .footer {
@@ -191,6 +206,16 @@ body {
     font-size: 18px;
     line-height: 1.4;
   }
+
+  .featured-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+  }
+
+  .container {
+    margin: 20px 12px;
+    padding: 25px 20px;
+  }
 }
 </style>
 
@@ -200,7 +225,7 @@ body {
 
 <div class="header">
   <h1>Marco J Olivier</h1>
-  <p>Author of The Shape of Series and books on estrangement, relationships, and personal growth</p>
+  <p>South African Author of Fiction and Nonfiction</p>
 </div>
 
 <div class="nav">
@@ -217,49 +242,43 @@ body {
 <div class="container">
 
   <div class="author">
-    <img src="marco-j-olivier-2025.png" alt="Marco J Olivier">
+    <img src="marco-j-olivier-2025.webp" alt="South African author Marco J Olivier">
     <p>
-      Welcome to the official website of <strong>Marco J Olivier</strong>, a South African author whose work explores philosophy, family estrangement, relationships, healing, personal growth, and the deeper questions of human life.
+      <strong>Marco J Olivier</strong> writes fiction and nonfiction exploring relationships, loss, faith, identity, meaning, and the quiet questions people often carry alone.
     </p>
   </div>
 
-  <div class="series">
-    <h2>Explore My Series</h2>
+  <div class="featured">
+    <h2>Featured Books</h2>
 
-    <div class="series-grid">
-      <div class="series-card">
-        <h3>Estrangement Series</h3>
-        <p>Books and reflections on family estrangement, emotional healing, disconnection, and rebuilding identity.</p>
-        <a href="estrangement.html">Explore Series</a>
-      </div>
-
-      <div class="series-card">
-        <h3>The Shape of Series</h3>
-        <p>Philosophical books and articles on silence, identity, awareness, meaning, and the hidden structure of life.</p>
-        <a href="shape.html">Explore Series</a>
-      </div>
-
-      <div class="series-card">
-        <h3>The In-Law Series</h3>
-        <p>Writing on loyalty, tension, control, and the complex emotional dynamics that shape in-law relationships.</p>
-        <a href="inlaw.html">Explore Series</a>
-      </div>
-
-      <div class="series-card">
+    <div class="featured-grid">
+      <div class="book-card">
+        <img src="the-art-of-being-here.webp" alt="The Art of Being Here by Marco J Olivier" loading="lazy" decoding="async">
         <h3>The Art of Being Here</h3>
-        <p>A reflective series focused on presence, stillness, attention, and learning how to live more consciously.</p>
-        <a href="arthere.html">Explore Series</a>
+        <a href="https://www.amazon.com/dp/B0GHSG2TP5" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
+      </div>
+
+      <div class="book-card">
+        <img src="the-life-of-death.webp" alt="The Life of Death by Marco J Olivier" loading="lazy" decoding="async">
+        <h3>The Life of Death</h3>
+        <a href="https://www.amazon.com/dp/B0H7HVSMJM" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
       </div>
     </div>
   </div>
 
+  <div class="writing-statement">
+    <p>
+      His books look beyond easy explanations, searching instead for the quiet truths people recognise within themselves and the meaning hidden inside ordinary life.
+    </p>
+  </div>
+
   <div class="cta-section">
-    <p>Explore Marco J Olivier’s books, articles, and author platform.</p>
+    <p>Discover the books, learn more about the author, or get in touch.</p>
 
     <div class="button-row">
-      <a class="amazon-btn" href="https://www.amazon.com/stores/MARCO-OLIVIER/author/B0FKD1YY1Z?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=4bfca05b-6e43-460b-a87d-aef963e236ee" target="_blank">View My Books</a>
-      <a class="articles-btn" href="https://marcojolivier.substack.com" target="_blank" rel="noopener noreferrer">Read on Substack</a>
-      <a class="medium-btn" href="https://medium.com/@marco2olivier" target="_blank">Read on Medium</a>
+      <a class="books-btn" href="books.html">View All Books</a>
+      <a class="about-btn" href="about-marco-j-olivier.html">About the Author</a>
+      <a class="contact-btn" href="about-marco-j-olivier.html#contact">Contact Marco</a>
     </div>
   </div>
 
