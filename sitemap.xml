@@ -1,73 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://marco2olivier-sa.github.io/</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/</loc>
+    <lastmod>2026-08-02</lastmod>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/index.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/books.html</loc>
+    <lastmod>2026-08-02</lastmod>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/about-marco-j-olivier.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/about-marco-j-olivier.html</loc>
+    <lastmod>2026-08-02</lastmod>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/shape.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/author-marco-j-olivier.html</loc>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/estrangement.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/articles.html</loc>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/inlaw.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/videos.html</loc>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/arthere.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/contact.html</loc>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/meaning-of-life.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/shape.html</loc>
+    <lastmod>2026-08-02</lastmod>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/what-is-self-awareness.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/estrangement.html</loc>
+    <lastmod>2026-08-02</lastmod>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/meaning-of-the-bowl.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/inlaw.html</loc>
+    <lastmod>2026-08-02</lastmod>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/meaning-of-the-path.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/arthere.html</loc>
+    <lastmod>2026-08-02</lastmod>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/meaning-of-the-flame.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/meaning-of-life.html</loc>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/meaning-of-the-silence.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/what-is-self-awareness.html</loc>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/meaning-of-the-mirror.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/meaning-of-the-bowl.html</loc>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/estrangement-guide.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/meaning-of-the-path.html</loc>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/why-adult-children-cut-off-parents.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/meaning-of-the-flame.html</loc>
+  </url>
 
-<url>
-<loc>https://marco2olivier-sa.github.io/signs-adult-child-pulling-away.html</loc>
-</url>
+  <url>
+    <loc>https://marco2olivier-sa.github.io/meaning-of-the-silence.html</loc>
+  </url>
+
+  <url>
+    <loc>https://marco2olivier-sa.github.io/meaning-of-the-mirror.html</loc>
+  </url>
+
+  <url>
+    <loc>https://marco2olivier-sa.github.io/estrangement-guide.html</loc>
+  </url>
+
+  <url>
+    <loc>https://marco2olivier-sa.github.io/why-adult-children-cut-off-parents.html</loc>
+  </url>
+
+  <url>
+    <loc>https://marco2olivier-sa.github.io/signs-adult-child-pulling-away.html</loc>
+  </url>
+
+  <url>
+    <loc>https://marco2olivier-sa.github.io/why-in-law-relationships-are-difficult.html</loc>
+  </url>
+
+  <url>
+    <loc>https://marco2olivier-sa.github.io/why-mothers-in-law-and-daughters-in-law-clash.html</loc>
+  </url>
+
+  <url>
+    <loc>https://marco2olivier-sa.github.io/how-couples-handle-in-law-conflict.html</loc>
+  </url>
 
 </urlset>
