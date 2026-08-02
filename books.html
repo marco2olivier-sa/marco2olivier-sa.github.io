@@ -81,6 +81,16 @@ h1, h2 {
   width: 200px;
 }
 
+.shape-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.shape-grid .book img {
+  max-width: 100%;
+  width: 170px;
+}
+
 .buybutton {
   display: inline-block;
   background: #ff9900;
@@ -123,6 +133,12 @@ h1, h2 {
 
   .book img {
     width: 180px;
+  }
+}
+
+@media (max-width: 900px) {
+  .shape-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   }
 }
  @media (max-width: 768px) {
@@ -188,7 +204,7 @@ h1, h2 {
 
 <h2>The Shape of Series</h2>
 
-<div class="bookgrid">
+<div class="bookgrid shape-grid">
 
 <div class="book">
 <img src="shape-of-the-bowl.webp" alt="The Shape of the Bowl" loading="lazy" decoding="async">
